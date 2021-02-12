@@ -2,4 +2,7 @@
     <string name="app_name">TaroTraining</string>
     <string name="alignment">Расклады</string>
     <string name="test">Тест</string>
+    <string name="title">Название</string>
+    <string name="text_future_alignment">Расклад на будущее</string>
+    <string name="text_love_alignment">Любовный расклад</string>
 </resources>
