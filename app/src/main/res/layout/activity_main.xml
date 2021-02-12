@@ -13,7 +13,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
         android:gravity="center"
-        android:text="Расклады"
+        android:text="@string/alignment"
         android:textSize="20sp"/>
 
     <Button
@@ -22,7 +22,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
         android:gravity="center"
-        android:text="Тест"
+        android:text="@string/test"
         android:textSize="20sp" />
 
 </LinearLayout>

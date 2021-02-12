@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TaroTraining</string>
+    <string name="alignment">Расклады</string>
+    <string name="test">Тест</string>
 </resources>
