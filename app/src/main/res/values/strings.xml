@@ -5,4 +5,20 @@
     <string name="title">Название</string>
     <string name="text_future_alignment">Расклад на будущее</string>
     <string name="text_love_alignment">Любовный расклад</string>
+    <string name="next">Далее</string>
+    <string name="choice_сard">Выбор карты сигнитификатора</string>
+    <string name="scan_card">Сканировать карту</string>
+    <string name="mix_deck">Перемешайте колоду и разложите карты по схеме:</string>
+    <string name="result_scan">Результат сканирования</string>
+    <string name="scan_next_card">Сканировать дальше</string>
+    <string name="cancel">Завершить</string>
+    <string name="future_title">Расклад на будущее</string>
+    <string name="future_describe">Что ждет вас в этом году? Как лучше действовать? Расклад расскажет какими будут ближайшие 12 месяцев.</string>
+    <string name="describe_card">Карту-сигнификатор выбирают из шестнадцати Старших Арканов. </string>
+    <string name="parametr">Распределение выполняется по следующим параметрам:</string>
+    <string name="jezl"><b>Масть Жезлов</b> – подойдет для светлокожих блондинов либо рыжеволосых;</string>
+    <string name="chasha"><b>Масть Чаш</b> – просто для людей со светлыми волосами;</string>
+    <string name="mech"><b>Масть Мечей</b> – используется для брюнетов;</string>
+    <string name="pentacl"><b>Масть Пентаклей</b> – этот вариант приемлем для смуглых или очень темноволосых людей.</string>
+
 </resources>
