@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/background"
-    android:weightSum="100">
+    >
 
-    <TextView
-        android:layout_width="match_parent"
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mainNameTextView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginTop="128dp"
         android:gravity="center"
+        android:text="@string/title"
+        android:textAlignment="center"
         android:textColor="@color/click_button"
+        android:textSize="48sp"
         android:textStyle="bold"
-        android:textSize="30sp"
-        android:text="@string/title"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:layout_width="match_parent"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mainAlignmentButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:gravity="center"
+        android:layout_marginTop="128dp"
         android:background="@color/button"
-        android:textColor="@color/text_button"
-        android:textSize="15sp"
+        android:gravity="center"
+        android:onClick="onAlignment"
+        android:shadowColor="@color/click_button"
+        android:shadowDx="2"
+        android:shadowDy="5"
         android:text="@string/alignment"
-        android:onClick="onAlignment"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:gravity="center"
-        android:background="@color/button"
         android:textColor="@color/text_button"
-        android:textSize="15sp"
-        android:text="@string/test"
-        android:onClick="onTest"/>
+        android:textSize="14sp"
+        app:cornerRadius="30dp"
+        app:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainNameTextView"
+        app:rippleColor="@color/click_button" />
 
-</LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mainTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/button"
+        android:gravity="center"
+        android:onClick="onTest"
+        android:text="@string/test"
+        android:textColor="@color/text_button"
+        android:textSize="14sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainAlignmentButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/click_button"
+        app:elevation="10dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
