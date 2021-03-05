@@ -1,20 +1,27 @@
-package com.example.tarotraining.alignment;
+package com.example.tarotraining;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
-
-import com.example.tarotraining.R;
-import com.example.tarotraining.alignment.futureAlignment.DescriptionAlignmentActivity;
+import android.widget.Button;
 
 public class AlignmentActivity extends AppCompatActivity {
+
+    Button futureButton, loveButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alignment);
+
+        futureButton = findViewById(R.id.buttonFuture);
+        futureButton.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoMedium)));
+
+        loveButton = findViewById(R.id.buttonLove);
+        loveButton.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoMedium)));
     }
 
     public void onFutureAlignment(View view) {

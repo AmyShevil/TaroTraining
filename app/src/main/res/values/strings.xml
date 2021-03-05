@@ -2,7 +2,7 @@
     <string name="app_name">TaroTraining</string>
     <string name="alignment">Расклады</string>
     <string name="test">Тест</string>
-    <string name="title">Название</string>
+    <string name="title">Taro Training</string>
     <string name="text_future_alignment">Расклад на будущее</string>
     <string name="text_love_alignment">Любовный расклад</string>
     <string name="next">Далее</string>
@@ -20,5 +20,7 @@
     <string name="chasha"><b>Масть Чаш</b> – просто для людей со светлыми волосами;</string>
     <string name="mech"><b>Масть Мечей</b> – используется для брюнетов;</string>
     <string name="pentacl"><b>Масть Пентаклей</b> – этот вариант приемлем для смуглых или очень темноволосых людей.</string>
-
+    <string name="eczarExtraBold">fonts/Eczar-ExtraBold.ttf</string>
+    <string name="robotoMedium">fonts/robotoMedium.ttf</string>
+    <string name="robotoRegular">fonts/robotoRegular.ttf</string>
 </resources>
