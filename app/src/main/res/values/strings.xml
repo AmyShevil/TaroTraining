@@ -23,4 +23,16 @@
     <string name="eczarExtraBold">fonts/Eczar-ExtraBold.ttf</string>
     <string name="robotoMedium">fonts/robotoMedium.ttf</string>
     <string name="robotoRegular">fonts/robotoRegular.ttf</string>
+    <string name="textCorrectScore">У вас %1$s из %2$s правильных ответов</string>
+    <string name="choose_your_figther">Choose your figther!</string>
+    <string name="decryption_test">Тест на расшифровку</string>
+    <string name="test_name">Тест на название карт</string>
+    <string name="circuit_test">Тест на схему раскладов</string>
+    <string name="tes_knowledge_spread">Тест на знание раскладов</string>
+    <string name="confirm_answer">Подтвердить ответ</string>
+    <string name="back_main">Вернуться на главное меню</string>
+    <string name="result">Результат</string>
+    <string name="point">Очки</string>
+
+
 </resources>
