@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:orientation="vertical"
-    android:weightSum="100">
+   >
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/title"
@@ -117,6 +117,7 @@
         android:id="@+id/buttonScan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:background="@color/button"
         android:gravity="center"
         android:onClick="on"
@@ -125,13 +126,13 @@
         android:textSize="14sp"
         app:cornerRadius="30dp"
         app:elevation="10dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonEnd"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintVertical_bias="0.906" />
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

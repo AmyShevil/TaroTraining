@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onTest(View view) {
 
-       // Intent intent = new Intent(MainActivity.this, .class);
-       // startActivity(intent);
+        Intent intent = new Intent(MainActivity.this, Test.class);
+        startActivity(intent);
     }
 }
