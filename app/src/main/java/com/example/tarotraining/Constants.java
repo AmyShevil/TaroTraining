@@ -2,6 +2,9 @@ package com.example.tarotraining;
 
 public class Constants {
 
+    public static String[] IMAGENET_CLASSES = new String[]{"0_the_fool", "1_the_magician", "2_the_high_priestess", "3_the_empress", "4_the_emperor"};
+
+
     //SITUATION SCHEMA ACTIVITY EN
 
     public static final String WHICH_SCHEMA_IS_DOWN_HERE_CONST = "Какой расклад изображен ниже?";
