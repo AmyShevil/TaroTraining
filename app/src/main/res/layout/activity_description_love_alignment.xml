@@ -59,7 +59,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="48dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,14 +73,13 @@
             android:background="@drawable/koloda" />
 
 
-
     </LinearLayout>
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/describe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="68dp"
         android:gravity="center"
         android:text="@string/love_describe"
         android:textColor="@color/click_button"

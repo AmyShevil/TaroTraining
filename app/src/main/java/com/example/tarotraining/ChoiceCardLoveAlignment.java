@@ -28,16 +28,22 @@ public class ChoiceCardLoveAlignment extends AppCompatActivity {
 
         materialTextView5= findViewById(R.id.materialTextView5);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoRegular)));
+
         materialTextView4= findViewById(R.id.materialTextView4);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoRegular)));
+
         materialTextView3= findViewById(R.id.materialTextView3);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoRegular)));
+
         materialTextView2= findViewById(R.id.materialTextView2);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoRegular)));
+
         materialTextView1= findViewById(R.id.materialTextView);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoRegular)));
+
         textView= findViewById(R.id.textView);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoMedium)));
+
         choiceCard= findViewById(R.id.choiceCard);
         buttonNext.setTypeface(Typeface.createFromAsset(getAssets(),  getString(R.string.robotoMedium)));
     }
