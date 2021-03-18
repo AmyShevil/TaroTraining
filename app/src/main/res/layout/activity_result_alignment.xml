@@ -23,6 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/scanResult"
         android:layout_width="wrap_content"
@@ -35,6 +36,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
+    <TextView
+        android:id="@+id/scanResultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/click_button"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanResult" />
+
+    <TextView
+        android:id="@+id/scanResultValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/click_button"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanResultTitle" />
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/materialButton2"
@@ -42,7 +66,6 @@
         android:layout_height="wrap_content"
         android:background="@color/button"
         android:gravity="center"
-        android:onClick="on"
         android:text="@string/scan_next_card"
         android:textColor="@color/text_button"
         android:textSize="14sp"

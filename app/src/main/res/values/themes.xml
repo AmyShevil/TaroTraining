@@ -3,7 +3,7 @@
     <style name="Theme.TaroTraining" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/button</item>
-        <item name="colorPrimaryVariant">@color/background</item>
+        <item name="colorPrimaryVariant">@color/button</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/background</item>
 

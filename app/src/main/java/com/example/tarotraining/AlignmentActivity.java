@@ -28,4 +28,9 @@ public class AlignmentActivity extends AppCompatActivity {
         Intent intent = new Intent(AlignmentActivity.this, DescriptionAlignmentActivity.class);
         startActivity(intent);
     }
+
+    public void onLoveAlignment(View view) {
+        Intent intent = new Intent(AlignmentActivity.this, DescriptionLoveAlignment.class);
+        startActivity(intent);
+    }
 }
