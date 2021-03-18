@@ -9,16 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TaroTraining">
+        <activity android:name=".ResultLoveAlignment"></activity>
+        <activity android:name=".LearningLoveAlignment" />
+        <activity android:name=".ChoiceCardLoveAlignment" />
+        <activity android:name=".DescriptionLoveAlignment" />
         <activity android:name=".ResultAlignmentActivity" />
         <activity android:name=".ChoiceCardAlignmentActivity" />
         <activity android:name=".DescriptionAlignmentActivity" />
         <activity android:name=".AlignmentActivity" />
         <activity android:name=".LearningAlignmentActivity" />
-        <activity android:name=".Test"/>
-        <activity android:name=".SituationSchemaTestActivity"/>
-        <activity android:name=".NameTestActivity"/>
-        <activity android:name=".TranscriptTestActivity"/>
-        <activity android:name=".ResultActivity"/>
+        <activity android:name=".Test" />
+        <activity android:name=".SituationSchemaTestActivity" />
+        <activity android:name=".NameTestActivity" />
+        <activity android:name=".TranscriptTestActivity" />
+        <activity android:name=".ResultActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

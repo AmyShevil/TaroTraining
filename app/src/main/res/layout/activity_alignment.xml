@@ -41,6 +41,7 @@
             android:background="@color/button"
             android:gravity="center"
             android:text="@string/text_love_alignment"
+            android:onClick="onLoveAlignment"
             android:textColor="@color/text_button"
             android:textSize="14sp"
             app:cornerRadius="30dp"
